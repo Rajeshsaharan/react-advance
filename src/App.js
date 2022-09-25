@@ -1,12 +1,9 @@
-
 import React from "react";
-import FunctionalComponents from "./components/FunctionalComponent";
-import ClassComponent from "./components/ClassComponent";
+import {LearnJSX} from './components/LearnJSX' // named import 
 
 function App() {
   return <>
-  <FunctionalComponents></FunctionalComponents>
-  <ClassComponent></ClassComponent>
+ <LearnJSX/>
   </>;
 }
 
