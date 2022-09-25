@@ -1,13 +1,11 @@
 import React from "react";
-import SetState from "./components/SetState";
-import PrevSetState from "./components/PrevSetState";
-import Like from "./components/Like";
+import DestrctPropsState from "./components/DestrctPropsState";
 
 function App() {
   return <>
-  <SetState></SetState>
-  <PrevSetState></PrevSetState>
-  <Like></Like>
+  <DestrctPropsState bio = "a bio ">
+    <button> this is button from children</button>
+  </DestrctPropsState>
   </>;
 }
 
