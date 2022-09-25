@@ -1,11 +1,8 @@
 import React from "react";
-import DestrctPropsState from "./components/DestrctPropsState";
-
+import ThisKeyWordBind from "./components/ThisKeyWordBind";
 function App() {
   return <>
-  <DestrctPropsState bio = "a bio ">
-    <button> this is button from children</button>
-  </DestrctPropsState>
+ <ThisKeyWordBind/>
   </>;
 }
 
