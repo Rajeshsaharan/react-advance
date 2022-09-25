@@ -1,9 +1,13 @@
 import React from "react";
-import Stateful from "./components/Stateful";
+import SetState from "./components/SetState";
+import PrevSetState from "./components/PrevSetState";
+import Like from "./components/Like";
 
 function App() {
   return <>
-     <Stateful></Stateful>
+  <SetState></SetState>
+  <PrevSetState></PrevSetState>
+  <Like></Like>
   </>;
 }
 
