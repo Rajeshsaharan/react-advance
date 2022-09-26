@@ -20,7 +20,8 @@ class ObjectRecommnded extends Component {
     //handle refactor in another component to give best view
 
     const personlist = persons.map((person)=>{
-        return <ObjectPerson person = {person}></ObjectPerson>
+        //each child must have a key unique 
+        return <ObjectPerson key = {person.id} person = {person}></ObjectPerson>
     })
     return (
       <div>{personlist}</div>
