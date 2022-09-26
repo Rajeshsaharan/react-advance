@@ -1,14 +1,12 @@
 import React from "react";
-import ConditionIfElse from "./components/ConditionIfElse";
-import ElementCondRender from "./components/ElementCondRender";
-import TernaryOperator from "./components/TernaryOperator";
-import ShortCircuit from "./components/ShortCircuit";
+import ListRender from "./components/ListRender";
+import ObjectList from "./components/ObjectList";
+import ObjectRecommnded from "./components/ObjectRecommnded";
 function App() {
-  return <>
-<ConditionIfElse/>
-<ElementCondRender/>
-<TernaryOperator/>
-<ShortCircuit/>
+  return <>\
+    <ListRender/>
+    <ObjectList/>
+    <ObjectRecommnded/>
   </>;
 }
 
