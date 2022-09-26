@@ -1,9 +1,13 @@
 import React from "react";
-import ObjectRecommnded from "./components/ObjectRecommnded";
+import Home from "./components/Home";
+import InlineHome from "./components/InlineHome";
+import ComponnetSpecific from "./components/ComponnetSpecific";
 function App() {
   return <>
-   
-    <ObjectRecommnded/>
+   <Home/>
+   <InlineHome/>
+   <ComponnetSpecific/>
+  
   </>;
 }
 
