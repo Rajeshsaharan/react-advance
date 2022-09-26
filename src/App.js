@@ -1,13 +1,8 @@
 import React from "react";
-import Home from "./components/Home";
-import InlineHome from "./components/InlineHome";
-import ComponnetSpecific from "./components/ComponnetSpecific";
+import LoginForm from "./components/LoginForm";
 function App() {
   return <>
-   <Home/>
-   <InlineHome/>
-   <ComponnetSpecific/>
-  
+ <LoginForm/>
   </>;
 }
 
