@@ -1,8 +1,14 @@
 import React from "react";
-import ThisKeyWordBind from "./components/ThisKeyWordBind";
+import ConditionIfElse from "./components/ConditionIfElse";
+import ElementCondRender from "./components/ElementCondRender";
+import TernaryOperator from "./components/TernaryOperator";
+import ShortCircuit from "./components/ShortCircuit";
 function App() {
   return <>
- <ThisKeyWordBind/>
+<ConditionIfElse/>
+<ElementCondRender/>
+<TernaryOperator/>
+<ShortCircuit/>
   </>;
 }
 
