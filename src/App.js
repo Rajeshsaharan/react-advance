@@ -1,8 +1,8 @@
 import React from "react";
-import LifeCycleA from "./components/LifeCycleA"
+import Ref from "./components/Ref";
 function App() {
   return <>
-  <LifeCycleA/>
+  <Ref/>
   </>;
 }
 
