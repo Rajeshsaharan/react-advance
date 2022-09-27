@@ -1,14 +1,13 @@
 import React from "react";
-import ChildA from "./components/ChildA";
-import ChildB from "./components/ChildB";
+import {UserProvider} from "./components/UserContext"
+import Child from "./components/Child";
 function App() {
   return <>
-<ChildA course = "brt"/>
-{/* this course props cant access  directly by childA or ChildB 
-to access them we need to go HOC */}
-<ChildB course = "bpt" />
+   <UserProvider value = "rajesh">
+  <Child/>
+   </UserProvider>
+  </>
 
-  </>;
 }
 
 export default App;
