@@ -6,7 +6,7 @@ export class ChildA extends Component {
 
     return (
         <div>
-             <div> ChildA {this.props.name}</div>
+             <div> ChildA {this.props.name}  {this.props.course}</div>
       <button onClick={this.props.anyprops}>button</button>
     
 

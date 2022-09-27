@@ -17,8 +17,12 @@ const shareFunction = OriginalComp => {
         }
 
         render() {
+            //here we can access this.props.course 
             return (
-                <OriginalComp anyprops = {this.myHOCfunc} name = {this.state.name}></OriginalComp>
+                <OriginalComp anyprops = {this.myHOCfunc} name = {this.state.name}
+                // to pass down other ramaining props to comp
+                {...this.props}
+                ></OriginalComp>
             )
         }
     }

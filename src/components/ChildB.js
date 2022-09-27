@@ -5,7 +5,7 @@ export class ChildA extends Component {
   render() {
     
     return (
-      <div> Child B{this.props.name}</div>
+      <div> Child B{this.props.name} {this.props.course}</div>
     )
   }
 }
