@@ -1,22 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
- class ChildRef extends Component {
-    constructor(props) {
-      super(props)
-        this.childRef = React.createRef()
-        this.focusInput = this.focusInput.bind(this)
-    }
-    focusInput(){
-        this.childRef.current.focus()
-    }
-
-  render() {
+ const ChildRef = React.forwardRef((props, ref) => {
     return (
       <div>
-        <input type='text' ref = {this.childRef}></input>
-        </div>
+        <input ref={ref}></input>
+      </div>
     )
   }
-}
+  )
 
-export default ChildRef
+export default ChildRef;

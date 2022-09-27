@@ -1,10 +1,8 @@
 import React from "react";
-import Ref from "./components/Ref";
-import ClassRef from "./components/ClassRef";
+import ForwardRef from "./components/ForwardRef";
 function App() {
   return <>
-  <Ref/>
-  <ClassRef/>
+   <ForwardRef/>
   </>;
 }
 
