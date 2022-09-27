@@ -1,8 +1,11 @@
 import React from "react";
-import Portals from "./components/Portals";
+import ChildA from "./components/ChildA";
+import ChildB from "./components/ChildB";
 function App() {
   return <>
-  <Portals/>
+<ChildA/>
+<ChildB/>
+
   </>;
 }
 
